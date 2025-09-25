@@ -1,0 +1,15 @@
+.container{
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.welcome{
+    color: red;
+    background-color: lightblue;
+    border: 2px dashed;
+    border-radius: 5px;
+    padding: 3px;
+    align-items: left;
+}
