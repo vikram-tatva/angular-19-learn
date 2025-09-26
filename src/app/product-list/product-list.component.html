@@ -1,0 +1,11 @@
+<div>    
+        <button (click)="showElectric()">Electronic</button>
+        <button (click)="showCloth()" >Cloth</button>
+        @for (product of products; track product) {
+            @if (product.category == category) {
+                <div>
+                    {{product.name}} - {{product.category}}
+                </div>
+            }
+        }
+</div>
