@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="todo-form">
+        <input type="text" [(ngModel)]="todo" class="form-input" name="inputToDo" id="inputToDo">
+        <button (click)="addToDo()" class="form-btn bg-blue">Add</button>
+    </div>
+    <div class="todo-body">
+        <table class="todo-table">
+            <th>Id</th>
+            <th>To Do</th>
+            <th>Action</th>
+            @for (todoItem of todos; track todoItem) {
+                <tr>
+                    <td>{{todoItem.id}}</td>
+                    <td>{{todoItem.todo}}</td>
+                    <td><button (click)="deleteToDo(todoItem.id)" class="form-btn bg-red">Delete</button></td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
