@@ -1,0 +1,22 @@
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li a{
+    text-decoration: none;
+    background-color: lightgreen;
+    padding: 5px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 5px;
+    color: black;
+}
+
+ul li a:hover{
+    background-color: rgb(185, 245, 185);
+    border: 2px solid;
+    box-shadow: 2px 2px 5px green;
+    font-weight: bold;
+}
