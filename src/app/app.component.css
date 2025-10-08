@@ -1,0 +1,113 @@
+table{
+    width: 100%;
+}
+
+table td{
+    padding-left: 5px;
+}
+
+ul{
+    list-style: none;
+    border: 1px solid;
+}
+
+fieldset{
+    padding: 0px 2px 2px 5px;
+    border-radius: 5px;
+}
+
+fieldset legend{
+    font-size: 8pt;
+}
+
+fieldset label{
+    font-size: 10pt;
+}
+
+.container{
+    background-color: rgb(234, 250, 198);
+    height: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    box-shadow: 1px 1px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 70vw;
+}
+
+.form-header{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px 5px 0px;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.form-group{
+    display: flex;
+}
+
+.form-control{
+    margin: 5px;
+    border: 1px;
+    box-shadow: 3px 3px 4px;
+    width: 100%;
+    height: 25px;
+    padding-left: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.form-control-radio-group{
+    margin: 0px 5px 5px 5px;
+    width: 100%;
+    height: 25px;
+    padding: 0px 0px 5px 0px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px;
+}
+
+.display{
+    margin: 15px 5px 5px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.display-content{
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 1px 1px 6px;
+}
+
+.btn-panel{
+    display: flex;
+    justify-content: right;
+    margin: 0px 5px 2px 0px;
+}
+
+.btn{
+    border: 0px;
+    box-shadow: 1px 1px 4px;
+    height: 25px;
+    margin: 10px 0px 0px 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;  
+}
+
+.btn:hover{
+    transform: translateY(-2px);
+    box-shadow: 1px 1px 12px;
+}
